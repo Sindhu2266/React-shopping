@@ -1,0 +1,70 @@
+.carbox{
+   margin-top: 30px;
+   margin-bottom: 30px;
+   border-radius: 5px;
+   border-style: dashed;
+   border-width: 2px;
+   border-color: rgb(3, 116, 147);
+}
+.cartext1{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 50px;
+   /*color: rgb(174, 60, 3);*/
+   color:black;
+   text-shadow: 50px;
+   text-align: left;
+   align-items: left;
+   padding-bottom: 20px;
+   padding-left: -30px;
+}
+.cartext1_w{
+   
+   
+   color: #fff;
+}
+.cartext2_w{
+   color: #c33603;
+   font-size: 50px;
+
+}
+
+.cartext2{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 50px;
+   color:black;
+   text-align: center;
+   align-items: center;
+   padding-bottom: 20px;
+   padding-right: 15px;
+}
+.carbutton{
+   width: 250px;
+   float: left;
+   height: 60px;
+   padding : 10px;
+   font-size: 25px;
+   font-weight: bold;
+   text-align: left;
+   font-family: Arial, Helvetica, sans-serif;
+   border-color: antiquewhite;
+   border-width: 1px;
+   border: 1px solid antiquewhite;
+   
+}
+.carbutton_right{
+   width: 250px;
+   height: 60px;
+   padding : 10px;
+   font-size: 25px;
+   font-weight: bold;
+   text-align: right;
+   font-family: Arial, Helvetica, sans-serif;
+   border-color: antiquewhite;
+   border-width: 1px;
+   border: 1px solid antiquewhite;
+   
+}
+.txt{
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }

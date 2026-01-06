@@ -1,0 +1,16 @@
+.content {
+    width: 100%;
+    background-color: #f9f7f8;
+    padding: 10px;
+    min-height: 100vh; /* Should be removed. Only for demonstration */
+  }
+.banner1{
+    width:1200px;
+    height: 300px;
+}
+.content1 {
+  width: 100%;
+  background-color: #f9f7f8;
+  padding: 10px;
+  min-height: 70vh; /* Should be removed. Only for demonstration */
+}

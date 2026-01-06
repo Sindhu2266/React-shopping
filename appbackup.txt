@@ -1,0 +1,95 @@
+import React from 'react'
+//import Container from 'react-bootstrap/Container';
+//import Nav from 'react-bootstrap/Nav';
+//import Navbar from 'react-bootstrap/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+//import '.Components/css/main.css';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+//import Men from './Pages/Men';
+//import Women from './Pages/Women';
+//import Header from './Components/Header';
+import Footer from './Components/Footer/Footer';
+import Corousel from './Components/Corousel';
+//import Content from './Pages/Content';
+//import Home from './Pages/Home';
+//import logo_top from './Components/Assets/logo_top.png';
+import Shop from './Pages/Shop';
+import ShopCategory from './Pages/ShopCategory';
+import Product from './Pages/Product';
+import Cart from './Pages/Cart';
+import LoginSignup from './Pages/LoginSignup';
+//import Footer from './Components/Footer/Footer';
+import men_banner from './Components/Assets/banner_mens.png'
+import women_banner from './Components/Assets/banner_women.png'
+import kid_banner from './Components/Assets/banner_kids.png'
+
+
+function App() {
+  return (
+  
+
+          <BrowserRouter>
+      <Navbar/>
+      <Routes>
+        <Route path='/' element={<Shop/>}/>
+        <Route path='/mens' element={<ShopCategory banner={men_banner} category="men"/>}/>
+        <Route path='/womens' element={<ShopCategory banner={women_banner} category="women"/>}/>
+        <Route path='/kids' element={<ShopCategory banner={kid_banner} category="kid"/>}/>
+        <Route path="/product" element={<Product/>}>
+          <Route path=':productId' element={<Product/>}/>
+        </Route>
+        <Route path='/cart' element={<Cart/>}/>
+        <Route path='/login' element={<LoginSignup/>}/>
+        <Route path="/Corousel"  element={<Corousel/>} />
+      </Routes>
+      <Footer/>
+      </BrowserRouter>
+    
+    
+      
+    
+       
+
+
+  );
+}
+
+export default App;
+
+
+
+Navbar.css
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+   color: #626262;
+    font-size: 14px;
+    
+}
+
+
+.nav-menu li{
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+.nav-menu li a{
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+

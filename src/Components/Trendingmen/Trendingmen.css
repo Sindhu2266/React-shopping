@@ -1,0 +1,47 @@
+.Trending_men{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+   margin-bottom: 40px;
+}
+.Trending_mens{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    
+    
+}
+
+
+.Trending_men h1{
+    color: #171717;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: Bold;
+    text-align: left;
+    align-items: left;
+}
+.Trending_mens h1{
+    color: #171717;
+    
+    font-size: 25px;
+    font-weight: 600;
+    font-style: Bold;
+    text-align: left;
+    align-items: left;
+}
+.Trending_men hr {
+    width: 150px;
+    height: 4px;
+    border-radius: 10px;
+    background: #252525;
+  }
+.collections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px auto;
+    gap: 30px;
+    max-width: 1280px;
+}

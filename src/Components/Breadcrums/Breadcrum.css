@@ -1,0 +1,39 @@
+.breadcrum{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    color: #111010;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 40px 10%;
+}
+.breadcrumb-item{
+    color: #111010;  
+}
+.breadcrumb-item a{
+    color: #111010;  
+}
+.breadcrumb-item a:hover{
+    color: #f41b1b;  
+}
+.breadcrumb-item a:active{
+    color: #f41b1b;  
+}
+.Breadcrumb.Item{
+    color: #111010;  
+
+}
+
+
+
+@media(max-width:1024px){
+    .breadcrum{
+        margin: 30px 8%;
+    }
+}
+@media(max-width:800px){
+    .breadcrum{
+        margin: 20px 5%;
+    }
+}

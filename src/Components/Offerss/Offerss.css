@@ -1,0 +1,117 @@
+.offerss{
+    /*background-color: rgba(0, 0, 0, 0.075);*/
+    background-color: rgba(216, 214, 214, 0.302);
+   /* background-image: url('../Assets/offbg.jpg');
+background-repeat: repeat;*/
+    margin: 50px auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    /*padding-top: 20px;
+    margin-bottom: 60px;*/
+    border-style:solid;
+    border-color: #dddbdb;
+    border: '1px';
+    border-radius: 15px;
+    
+    /*background: linear-gradient(180deg, #fde1ff 0%,#e1ffea22 60%);;
+    background: linear-gradient(180deg, #fff3cd 0%,#e1ffea22 60%);*/
+}
+
+.offerss-left h1{
+    color: #171717;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 600;
+}
+.offerss-left h2{
+    color: #db4703;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.offerss-left p{
+    color: #171717;
+    font-size: 16px;
+    font-weight: 600;
+}
+.offerss-left button{
+    width: 120px;
+    height: 50px;
+    background: #1d7fca;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.offerss-right img{
+    width: 280px;
+    padding-top: 10px;
+}
+
+/* ----- media query----- */
+
+@media(max-width:1280px){
+    .offerss-right img{
+        width: 200px;
+    }
+    .offerss-left h2{
+    color: #db4703;
+    font-size: 30px;
+    font-weight: 200;
+}
+    .offerss-left h1{
+        font-size: 20px;
+    }
+    .offerss-left p{
+        justify-content: center;
+        font-size: 14px;
+    }
+    .offerss-left button{
+        width: 200px;
+        height: 50px;
+        
+        font-size: 18px;
+        margin-top: 25px;
+    }
+}
+@media(max-width:1024px){
+     .offerss-left h2{
+    color: #db4703;
+    font-size: 30px;
+    font-weight: 200;
+}
+    .offerss-right img{
+        width: 200px;
+    }
+}
+@media(max-width:800px){
+    .offerss-right{
+        display: none;
+    }
+    .offerss-left h1{
+        display: flex;
+flex-wrap: wrap;
+        font-size: 20px;
+    }
+     .offerss-left h2{
+    color: #db4703;
+    font-size: 30px;
+    font-weight: 400;
+}
+    .offerss-left p{
+        display: flex;
+flex-wrap: wrap;
+        justify-content: center;
+        font-size: 14px;
+    }
+    .offerss{
+        padding: 50px 8%;
+    }
+}
